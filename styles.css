@@ -36,6 +36,10 @@ ul > li {
   flex-direction: column;
   gap: 60px;
   padding-left: 20px;
+  position: sticky;
+  top: 0;
+  overflow-y: auto;
+  height: 100vh;
 }
 
 .sidebar ul {
